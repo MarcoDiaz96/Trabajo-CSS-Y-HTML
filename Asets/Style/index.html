@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a CSS</title>
+
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+    <!--Tenemos tres formas distintas de agregar estilos a un documebnto html
+    
+    Inline(en linea)
+    
+    Para trabajar con los estilos in line utilizamos la palabra reservada style y con esto ya le damos la instrucción de lo que queremos añadir 
+    Tiene mayor jerarquía sobre la etiqueta style
+    -->
+
+    <h1>Inline</h1>
+    <p style= "background-color: aqua;color: brown;font-size: xx-large;" class="lorem" id="segundo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, nesciunt voluptatibus reiciendis debitis harum cum quod recusandae rerum ipsum labore perspiciatis excepturi. Enim eaque iusto quia quisquam ea tempore molestias!</p>
+
+    <!--Utilizando la etiqueta <style>
+    
+    Cuando usamos los estilos dentro de la etiqueta style,"separamos" los estilos de estiqueta,para mantener un codigo limpio y claro
+    -->
+
+    <style>
+
+    body{
+        background-color: blueviolet;
+    }
+
+    </style>
+
+    <p class="lorem" id="tercero">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat praesentium hic at asperiores accusamus quo exercitationem, magnam blanditiis voluptate, voluptatem corporis dicta nulla tempora earum incidunt enim doloribus rem eaque?</p>
+
+
+<!--Referencia a un documento de estilos externa(buena practica)
+
+- Se tiene un codigo más limpio
+-Codigo más entendible
+-Velocidad de lectura en nuestra pagina
+-Escalabilidad
+
+Utilizar estilos de un documento externo significa que vamos a tener 2 documentos, uno para html Index.html con la estructura y por otro lado tenemos el documento llamado style.css para darle estilo
+
+-->
+
+    <p class="lorem" id="primero">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur rem a nam neque culpa vitae et quasi sunt at magni doloribus sed velit suscipit esse, labore est ad veritatis dolore!</p>
+
+<!-- clases y ID
+
+Todxs pertenecemos a la clase CH35
+nuestro ID seria nuestro nombre
+
+la palabra reservada class (.)
+la palabra reservada id (#)
+
+-->
+
+<h2 class="CH35" id="Rey">Rey</h2>
+<h2 class="CH35" id="Uriel">Uriel</h2>
+<h2 class="CH35"id="Rene">Rene</h2>
+<h2 class="CH35" id="Marco">Marco</h2>
+
+
+
+</body>
+</html>
